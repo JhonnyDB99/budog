@@ -1,0 +1,50 @@
+/* CSS */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.titulo {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: normal;
+}
+.card {
+  margin: 10px 0px;
+}
+
+/* customização bootstrap */
+.btn-orange {
+  color: #fff;
+  background-color: #f80;
+  border-color: #f80;
+}
+
+.btn-orange:hover {
+  color: #fff;
+  background-color: #f30;
+  border-color: #f30;
+}
+
+.btn-orange:focus,
+.btn-orange.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-orange.disabled,
+.btn-orange:disabled {
+  color: #fff;
+  background-color: #fa0;
+  border-color: #fac;
+}
+
+.btn-orange:not(:disabled):not(.disabled):active,
+.btn-orange:not(:disabled):not(.disabled).active,
+.show > .btn-orange.dropdown-toggle {
+  color: #fff;
+  background-color: #f60;
+  border-color: #f60;
+}
+
+.btn-orange:not(:disabled):not(.disabled):active:focus,
+.btn-orange:not(:disabled):not(.disabled).active:focus,
+.show > .btn-orange.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
